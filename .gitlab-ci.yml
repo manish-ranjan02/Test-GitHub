@@ -1,0 +1,8 @@
+stages:
+    - build
+Job1:
+    stage: build
+    scripts:
+        - ./Addition.ps1
+    only:
+        - Pre-Prod
